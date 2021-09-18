@@ -1,7 +1,14 @@
 import React from 'react';
+import { Link } from 'gatsby';
+import Navbar from '../components/Navbar';
 
 const history = () => {
-	return <div>This is the history of our company</div>;
+	return (
+		<div>
+			<Navbar />
+			<h1>About our history</h1>
+		</div>
+	);
 };
 
 export default history;

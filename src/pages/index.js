@@ -1,12 +1,10 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import Navbar from './components/Navbar';
+import Layout from './components/Layout';
 
 export default function Home() {
 	return (
-		<div>
-			<Navbar />
-			<h1>Hello People!</h1>
-		</div>
+		<Layout>
+			<h1>Homepage</h1>
+		</Layout>
 	);
 }

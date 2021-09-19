@@ -1,14 +1,12 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import Navbar from '../components/Navbar';
+// import React from 'react';
+// import Layout from './components/Layout';
 
-const history = () => {
-	return (
-		<div>
-			<Navbar />
-			<h1>About our history</h1>
-		</div>
-	);
-};
+// const history = () => {
+// 	return (
+// 		<Layout>
+// 			<h1>Our History</h1>
+// 		</Layout>
+// 	);
+// };
 
-export default history;
+// export default history;

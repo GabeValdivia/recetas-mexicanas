@@ -1,13 +1,11 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import Navbar from './components/Navbar';
+import Layout from './components/Layout';
 
 const Error = () => {
 	return (
-		<div>
-			<Navbar />
+		<Layout>
 			<h1>Oh, snap! That page doesn't exist.</h1>
-		</div>
+		</Layout>
 	);
 };
 

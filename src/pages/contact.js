@@ -1,12 +1,10 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import Navbar from './components/Navbar';
+import Layout from './components/Layout';
 
 export default function contact() {
 	return (
-		<div>
-			<Navbar />
+		<Layout>
 			<h1>Hello from contact page</h1>
-		</div>
+		</Layout>
 	);
 }

@@ -14,6 +14,10 @@ const About = () => {
 						<p>Taiyaki tumblr flexitarian jean shorts brunch, aesthetic salvia retro.</p>
 						<Link to="/contact" className="btn"> contact </Link>
 					</article>
+					<StaticImage src="../assets/images/about.jpeg" alt="Person pouring salt in bowl"
+					className="about-img"
+					placeholder="blurred"
+					 />
 				</section>
 			</main>		
 		</Layout>
